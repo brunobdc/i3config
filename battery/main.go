@@ -48,7 +48,7 @@ func main() {
 		color = "#FF5555"
 	case charged <= 30:
 		setLabel("")
-		color = ""
+		color = "#ffd555"
 	case charged <= 60:
 		setLabel("")
 		color = "#ffff55"
