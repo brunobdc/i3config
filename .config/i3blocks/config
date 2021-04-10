@@ -1,0 +1,26 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+align=center
+separator_block_width=15
+interval=1
+
+[volume]
+command=~/.config/i3blocks/volume
+markup=pango
+
+[battery]
+command=~/.config/i3blocks/battery
+markup=pango
+
+[date]
+command=date '+%d/%m/%Y'
+
+[time]
+command=date '+%H:%M'
